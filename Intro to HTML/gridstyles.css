@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.thefa {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-gap: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+
+
+
+}
+
+.premierleague {
+    background-color: #6CABDD;
+    padding: 20px;
+}
+
+.championship {
+    background-color: #630530;
+    padding: 20px;
+}
+
+.leagueone{
+    background-color: green;
+    padding: 20px;
+}
+
+.leaguetwo{
+    background-color: orange;
+    padding: 20px;
+}
