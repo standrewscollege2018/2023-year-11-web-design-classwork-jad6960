@@ -1,0 +1,43 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: sombrero;
+    src: url(BerkshireSwash-Regular.ttf);
+}
+
+body {
+    background-color: #F7F7FF;
+}
+
+.banner {
+    background-color: #137547;
+    text-align: center;
+}
+.banner img {
+    max-width: 100%;
+}
+
+.linkcontainer {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.linkcontainer a {
+    color: #47525E;
+    font-size: large;
+    font-family: ;
+}
+.linkcontainer a:link, a:visited {
+    display: block;
+    padding: 5px 30px;
+    text-align: center;
+    background-color: #FFD185;
+    text-decoration: none;
+}
+.linkcontainer a:hover {
+    background-color: red;
+}
+
