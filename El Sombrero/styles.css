@@ -28,16 +28,29 @@ body {
 .linkcontainer a {
     color: #47525E;
     font-size: large;
-    font-family: ;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
 }
 .linkcontainer a:link, a:visited {
     display: block;
-    padding: 5px 30px;
+    padding: 10px 30px;
     text-align: center;
     background-color: #FFD185;
     text-decoration: none;
 }
 .linkcontainer a:hover {
-    background-color: red;
+    background-color: #d0a96b;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card img {
+    max-width: 100%;
+}
+
+.card h2 {
+    vertical-align: top;
+    text-align: center;
+}
